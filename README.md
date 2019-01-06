@@ -4,15 +4,15 @@ koa自动加载路由
 ## Installation
 
 ```sh
-$ npm install koa-auto-route
+$ npm install koa-autoregroute
 ```
 
 ## Use with koa
 
 ```js
 var app = require('koa')();
-var koaAutoRoute = require('koa-autoload-router');
-app.use(koaAutoRoute(app, {
+var autoRegRoute = require('koa-autoregroute');
+app.use(autoRegRoute(app, {
     root: './app/controller',
     suffix: '.js',
     prefix: '/v1'
