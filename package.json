@@ -1,5 +1,5 @@
 {
-  "name": "koa-auto-route",
+  "name": "koa-autoregroute",
   "version": "1.0.0",
   "description": "auto register router from floder/controller/method",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/orchie/koa-auto-route.git"
+    "url": "git+https://github.com/orchie/koa-autoregroute.git"
   },
   "keywords": [
     "koa",
@@ -17,9 +17,9 @@
   "author": "orchie",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/orchie/koa-auto-route/issues"
+    "url": "https://github.com/orchie/koa-autoregroute/issues"
   },
-  "homepage": "https://github.com/orchie/koa-auto-route#readme",
+  "homepage": "https://github.com/orchie/koa-autoregroute#readme",
   "dependencies": {
     "koa-router": "^5.4.0"
   }
