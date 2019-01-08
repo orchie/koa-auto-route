@@ -45,7 +45,7 @@ module.exports = function(app, options) {
     var paths = walk(options.root);
     for (let i in paths) {
         let _path = path.relative(options.root, i);
-        _path = _path.slice(0, _path.length - options.suffix.length);
+        _path = _path.slice(0, _path.length - options.suffix.length).replace(/\\/g, '/');
         paths[i].forEach((v, k) => {
             router.post(options.prefix + "/" + _path + "/" + v, require(i)[v]);
         })
